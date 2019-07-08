@@ -1826,7 +1826,7 @@ def bot(op):
                                 ki.sendMessage(msg.to,"Nama replaced To " + string + "")
 
 #===========BOT UPDATE============#
-elif cmd == "tagall" or text.lower() == '.tag':
+                        elif cmd == "tagall" or text.lower() == '😆':
                           if wait["selfbot"] == True:
                                group = aditmadzs.getGroup(msg.to)
                                nama = [contact.mid for contact in group.members]
