@@ -12,13 +12,13 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 
-aditmadzs = LineClient("EJpGdQld9CS2LcGTpUSb.sLDSYRaRL7A9zaK6pHWuwW.IPidRdGTt1QrxQL5r8Wpj+59/ZCZbKCmcJj5OllF5jY=")
+aditmadzs = LineClient()
 #aditmadzs = LineClient(authToken='LOGIN TOKEN')
 aditmadzs.log("Auth Token : " + str(aditmadzs.authToken))
 channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient("3gd39mf+MJDtz4K4YRAdYH0qw1iib3ZlPUccOICmTX8Fa466yoHS0uGWNAhKE7ppDopy3fJLcAog2ENpeGzUJVewlVAgELrMhv1777WAhiKfY6j1GZbdJ9OzLbRRLlTabHzM73SPEqPg4rYtxdDJcwdB04t89/1O/w1cDnyilFU=")
+ki = LineClient()
 #ki = LineClient(authToken='LOGIN TOKEN')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
@@ -27,10 +27,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["u4a576ccab02b97b6bd64093a3e1c145b"]
-owner = ["u4a576ccab02b97b6bd64093a3e1c145b"]
-admin = ["u4a576ccab02b97b6bd64093a3e1c145b"]
-staff = ["u4a576ccab02b97b6bd64093a3e1c145b"]
+creator = ["ubcd98265d4210c2215f3ddb43d79c414"]
+owner = ["ubcd98265d4210c2215f3ddb43d79c414"]
+admin = ["ubcd98265d4210c2215f3ddb43d79c414"]
+staff = ["ubcd98265d4210c2215f3ddb43d79c414"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
@@ -461,7 +461,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╔════════════════════╗" + "\n" + \
-                  " 🍁🍁🍁 Aditmadzs 🍁🍁🍁" + "\n" + \
+                  " 🍁🍁🍁 PRiNCe 🍁🍁🍁" + "\n" + \
                   "╚════════════════════╝" + "\n" + \
                   "╔════════════════════╗" + "\n" + \
                   " ◄]·✪·BOT·✪·[►" + "\n" + \
