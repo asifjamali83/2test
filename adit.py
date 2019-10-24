@@ -27,10 +27,10 @@ ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 #ubah mid di dalem admin,owner,creator.json dengan mid kalian
 poll = LinePoll(aditmadzs)
 call = aditmadzs
-creator = ["ubcd98265d4210c2215f3ddb43d79c414"]
-owner = ["ubcd98265d4210c2215f3ddb43d79c414"]
-admin = ["ubcd98265d4210c2215f3ddb43d79c414"]
-staff = ["ubcd98265d4210c2215f3ddb43d79c414"]
+creator = ["ubcd98265d4210c2215f3ddb43d79c414,"udf0ce36374a139f17074f67e38961e07""]
+owner = ["ubcd98265d4210c2215f3ddb43d79c414","udf0ce36374a139f17074f67e38961e07"]
+admin = ["ubcd98265d4210c2215f3ddb43d79c414","udf0ce36374a139f17074f67e38961e07"]
+staff = ["ubcd98265d4210c2215f3ddb43d79c414",,"udf0ce36374a139f17074f67e38961e07"]
 mid = aditmadzs.getProfile().mid
 Amid = ki.getProfile().mid
 KAC = [aditmadzs,ki]
